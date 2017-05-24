@@ -1,0 +1,24 @@
+{
+  "name": "05_webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.develop.config.js --devtool eval --progress --colors --hot --content-base src",
+    "publish": "webpack --config webpack.publish.config.js",
+    "watch": "webpack --config webpack.develop.config.js --watch --hot"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "devDependencies": {
+    "echarts": "^3.5.4",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^2.1.2",
+    "open-browser-webpack-plugin": "0.0.5"
+  }
+}

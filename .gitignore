@@ -1,0 +1,2 @@
+#忽略webstorm生成的.idea文件夹
+.idea/
