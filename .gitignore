@@ -1,2 +1,4 @@
 #忽略webstorm生成的.idea文件夹
 .idea/
+#忽略node_modules文件夹
+node_modules/
