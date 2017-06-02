@@ -1,2 +1,5 @@
-import './guage'
-import './pie'
+// import './guage'
+// import './pie'
+import '../css/app.less'
+import './baseLine'
+import './chartsLine'
