@@ -55,6 +55,11 @@ class Man extends Person {
     }
 }
 
-console.log(new Man('clark', 'pee').show())
-console.log(new Man('clark', 'pee').show().say())
-console.log(new Man('clark', 'pee').show().say().name)
+// console.log(new Man('clark', 'pee').show())
+// console.log(new Man('clark', 'pee').show().say())
+// console.log(new Man('clark', 'pee').show().say().name)
+
+var aa = [{'a':11},{'b':22},{'c':33}]
+var bb = JSON.stringify(aa)
+console.log(bb)
+console.log(JSON.parse(bb))

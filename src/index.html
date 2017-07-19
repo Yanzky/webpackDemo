@@ -17,8 +17,8 @@
     }
     div {
         float: left;
-        /*width: 50%;*/
-        /*height: 50%;*/
+        width: 50%;
+        height: 50%;
     }
 
     /*#nvaLine {*/
@@ -30,13 +30,23 @@
 <body>
 <div id="app">div</div>
 <!--<div id="charts1"></div>-->
-<!--<div id="charts2"></div>-->
+<div id="charts2"></div>
 <!--<div id="charts3"></div>-->
 <!--<div id="charts4"></div>-->
 <!--<div id="charts5"></div>-->
 <canvas id="nvaLine" height='800' width="800"></canvas>
 <div id="container"></div>
-<script src="bundle.js"></script>
+<div id="label"></div>
+<script src="../uchartlib.js"></script>
+<script>
+    console.log(UCL);
+    console.log(UCL.test(11));
+    console.log(UCL);
+    var props = {width: 500, height: 264};
 
+    var label = new UCL.BeautyLabel('#label', props);
+    console.log(label)
+    label.render([['税收户', 239999], ['社保户', 9877654]]);
+</script>
 </body>
 </html>

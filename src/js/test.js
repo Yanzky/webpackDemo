@@ -1,6 +1,4 @@
-function test(num) {
-    console.log(num);
-    console.log('我是test页面');
-    console.log('我是test页面');
+export function test(a){ 
+    console.log('test测试');
+    return a+1
 }
-test(123);

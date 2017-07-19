@@ -2,6 +2,11 @@ import { select } from 'd3-selection'
 import { timer } from 'd3-timer'
 
 /**
+ * 引入配置文件
+ */
+import Painter from './Painter'
+
+/**
  * 图表基类
  * 一个抽象的类
  *
